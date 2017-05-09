@@ -1,12 +1,3 @@
-# Frame
-
-A user system API starter. Bring your own front-end.
-
-[![Build Status](https://travis-ci.org/jedireza/frame.svg?branch=master)](https://travis-ci.org/jedireza/frame)
-[![Dependency Status](https://david-dm.org/jedireza/frame.svg?style=flat)](https://david-dm.org/jedireza/frame)
-[![devDependency Status](https://david-dm.org/jedireza/frame/dev-status.svg?style=flat)](https://david-dm.org/jedireza/frame#info=devDependencies)
-
-
 ## Features
 
  - Login system with forgot password and reset password
@@ -29,19 +20,6 @@ Frame is only a restful JSON API. If you'd like a ready made front-end,
 checkout [Aqua](https://github.com/jedireza/aqua). Or better yet, fork
 this repo and build one on top of Frame.
 
-
-## Live demo
-
-| url                                                                        | username | password |
-|:-------------------------------------------------------------------------- |:-------- |:-------- |
-| [https://getframe.herokuapp.com/](https://getframe.herokuapp.com/)         | root     | root     |
-| [https://getframe.herokuapp.com/docs](https://getframe.herokuapp.com/docs) | ----     | ----     |
-
-[Postman](http://www.getpostman.com/) is a great tool for testing and
-developing APIs. See the wiki for details on [how to
-login](https://github.com/jedireza/frame/wiki/How-to-login).
-
-
 ## Requirements
 
 You need [Node.js](http://nodejs.org/download/) installed and you'll need
@@ -51,15 +29,6 @@ We use [`bcrypt`](https://github.com/ncb000gt/node.bcrypt.js) for hashing
 secrets. If you have issues during installation related to `bcrypt` then [refer
 to this wiki
 page](https://github.com/jedireza/frame/wiki/bcrypt-Installation-Trouble).
-
-
-## Installation
-
-```bash
-$ git clone git@github.com:jedireza/frame.git
-$ cd frame
-$ npm install
-```
 
 
 ## Configuration
@@ -101,7 +70,6 @@ $ npm run first-time-setup
 ```bash
 $ npm start
 
-# > frame@0.0.0 start /Users/jedireza/projects/frame
 # > ./node_modules/nodemon/bin/nodemon.js -e js,md server
 
 # 09 Sep 03:47:15 - [nodemon] v1.10.2
@@ -156,9 +124,6 @@ use to write all of our tests.
 
 ```bash
 $ npm test
-
-# > frame@0.0.0 test /Users/jedireza/projects/frame
-# > ./node_modules/lab/bin/lab -c
 
 # ..................................................
 # ..................................................
